@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-vuex-localstorage-example",
+  "version": "1.0.0",
+  "description": "My stylish Nuxt.js project",
+  "author": "RubystarAshe",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.3.4",
+    "nuxt-vuex-localstorage": "^1.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
