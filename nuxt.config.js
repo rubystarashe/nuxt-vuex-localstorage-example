@@ -39,7 +39,9 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-vuex-localstorage'
+    ['nuxt-vuex-localstorage', {
+      localStorage: ['localStorage', 'foo']
+    }]
   ],
 
   /*
