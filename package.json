@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
-    "nuxt-vuex-localstorage": "^1.2.1"
+    "nuxt": "^2.4.3",
+    "nuxt-vuex-localstorage": "^1.2.5"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

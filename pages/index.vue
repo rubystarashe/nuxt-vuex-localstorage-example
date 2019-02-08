@@ -14,6 +14,9 @@
     foo(localStorage)
     {{$store.state.foo.my_custom_value}}
     <button @click="$store.commit('foo/increase')">increase</button>
+    foo(localStorage, expire. it will be expired after 2 hour)
+    {{$store.state.foo.expireTest}}
+    <button @click="$store.commit('foo/expirecount')">expire increase</button>
   </div>
   <div v-show="$store.state.localStorage.status">
     sessionStorage

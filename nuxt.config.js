@@ -40,6 +40,7 @@ module.exports = {
   */
   modules: [
     ['nuxt-vuex-localstorage', {
+      mode: 'debug',
       localStorage: ['localStorage', 'foo']
     }]
   ],
@@ -51,6 +52,9 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    transpile: [
+      'nuxt-vuex-localstorage'
+    ],
     extend(config, ctx) {
       
     }
